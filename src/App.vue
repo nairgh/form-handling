@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <FormHandling />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FormHandling from './components/FormHandling';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FormHandling
   }
 }
 </script>
@@ -23,4 +22,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
